@@ -1,0 +1,235 @@
+import { StyleSheet } from "react-native";
+const ExStyles = StyleSheet.create({
+    container:{
+        padding:20,
+    },
+    sc_name:{
+        textAlign:'center',
+        fontSize:22,
+        fontWeight:'bold',
+        paddingTop:20,
+        
+    },
+    box_cont:{
+        borderWidth:1,
+        height:85,
+        width:85,
+        padding:13,
+        elevation:5,
+        borderColor:'#ccc',
+        backgroundColor:'#fff',
+         borderRadius:8
+    },
+   
+    box_head:{
+        paddingTop:40,
+        flexDirection:'row',
+        justifyContent:'space-around'
+    },
+    person:{
+        borderWidth:1,
+        height:85,
+        width:85, 
+        alignSelf: 'center',
+        elevation:5,
+        borderColor:'#ccc',
+        backgroundColor:'#fff',  
+        padding:13,
+        marginTop:20,
+        borderRadius:8
+    },
+    // btn:{
+    //     borderWidth:1,
+    //     marginTop:25,
+    //     alignSelf:'center',
+    //     width:'50%',
+    //     paddingHorizontal:20,
+    //     paddingVertical:15,
+    //     textAlign:'center',
+    //     borderRadius:8,
+    //     backgroundColor:'#E06464',
+    //     color:'#fff',
+    //     elevation:5,
+    //     borderColor:'#ccc',
+    // },
+    input:{
+        borderWidth:1,
+        height:45,
+        borderRadius:26,
+        marginBottom:20,
+        paddingHorizontal:20,
+        borderColor:'#ccc',
+        elevation:5,
+        backgroundColor:'#fff',
+    },
+    btn1:{
+        borderWidth:1,
+        marginTop:25,
+        alignSelf:'center',
+        width:'50%',
+        paddingHorizontal:20,
+        paddingVertical:15,
+        textAlign:'center',
+        borderRadius:8,
+        backgroundColor:'#FF725E',
+        color:'#fff',
+        elevation:5,
+        borderColor:'#ccc',
+    },
+    std_cont:{
+        borderWidth:1,
+        borderColor:'#ccc',
+        backgroundColor:'#fff',
+        elevation:5,
+        padding:15,
+        height:80,
+        width:80,
+        borderRadius:8
+    },
+    bottom:{
+        position:'absolute',
+        borderWidth:1,
+        bottom:0,
+        height:55,
+        left:0,
+        right:0,
+        elevation:5,
+        backgroundColor:'#fff',
+        borderColor:'#ccc',
+        padding:10
+    },
+    profile_cont:{
+        borderWidth:1,
+        padding:10,
+        marginTop:20,
+        width:'100%',
+        alignItems:'center',
+        backgroundColor:'#fff',
+        borderColor:'#ccc',
+        elevation:6,
+        borderRadius:8,
+    },
+    parent_info:{
+        borderWidth:1,
+        padding:10,
+        marginTop:20,
+        width:'100%',
+   
+        backgroundColor:'#fff',
+        borderColor:'#ccc',
+        elevation:6,
+        borderRadius:8,
+    },
+    pass_btn:{
+        borderWidth:1,
+        marginTop:25,
+        alignSelf:'center',
+        width:'50%',
+        paddingHorizontal:20,
+        paddingVertical:15,
+        textAlign:'center',
+        borderRadius:8,
+        backgroundColor:'#FF725E',
+        color:'#fff',
+        elevation:5,
+        borderColor:'#ccc',
+    },
+    icon1:{
+        borderWidth:1,
+        height:40,
+        width:40,
+        borderRadius:50,
+        textAlign:'center',
+        padding:6,
+        backgroundColor:'#536DFE',
+        borderColor:'#ccc',
+        marginRight:20
+    },
+    icon2:{
+        borderWidth:1,
+        height:40,
+        width:40,
+        borderRadius:50,
+        textAlign:'center',
+        padding:6,
+        backgroundColor:'#00BFA6',
+        borderColor:'#ccc',
+        marginRight:20
+    },
+    icon3:{
+        borderWidth:1,
+        height:40,
+        width:40,
+        borderRadius:50,
+        textAlign:'center',
+        padding:6,
+        backgroundColor:'#00B0FF',
+        borderColor:'#ccc',
+
+    },
+    nft_dot:{
+        position:'absolute',
+        height:12,
+        width:12,
+        borderWidth:1,
+        right:20,
+        backgroundColor:'red',
+        borderRadius:8,
+        borderColor:'#ccc',
+        top:-3
+    },
+    bottom_text:{
+        borderWidth:1,
+        position:'absolute',
+        height:330,
+        left:10,
+        right:10,
+        bottom:-350,
+        backgroundColor:'#fff',
+        borderRadius:30,
+        borderColor:'#ccc',
+        padding:20,
+        elevation:5,
+    },
+    start_btn:{
+        borderWidth:1,
+        marginTop:30,
+        alignSelf:'center',
+        width:'50%',
+        paddingHorizontal:20,
+        paddingVertical:15,
+        color:'#fff',
+        textAlign:'center',
+        borderRadius:8,
+        backgroundColor:'#FF725E',
+        color:'#fff',
+        elevation:5,
+        borderColor:'#ccc',
+        fontSize:16
+    },
+    head:{
+        paddingTop:100
+    },
+    box_std_cont:{
+        borderWidth:1,
+        backgroundColor:'#fff',
+        alignSelf:'center',
+        width:'55%',
+        height:80,
+        marginTop:-45,
+        borderRadius:8,
+        borderColor:'#ccc',
+        elevation:5,
+        padding:5
+    },
+    date_cont:{
+        // backgroundColor:'red',
+        height:150,
+        marginTop:20,
+        backgroundColor:'linear'
+        
+    }
+
+    
+})
+export default ExStyles;
